@@ -1,0 +1,20 @@
+Luke Lai
+luelai
+1355154
+
+combine.sql - For each "new payment" tuple t that's in NewPayments either
+				a) there isn't a tuple in Payments that has the same primary key, or
+				b) there is a tuple in Payments with the same primary key
+
+foreign.sql - create 3 different foreign keys
+
+general.sql - create 4 general constraints
+
+unittests.sql  - create various unit tests
+
+createviews.sql - create 2 different views
+
+queryviews.sql - create 2 query for the views created
+
+createindex.sql - create an index named LookUpReturns over the kind and dateFiled columns (in that order) of the 
+					TaxReturns table. Save the command in the file
